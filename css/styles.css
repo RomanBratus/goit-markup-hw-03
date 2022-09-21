@@ -37,12 +37,28 @@ body {
     display: inline-block;
 }
 
+h1,h2,h3,h4,h5,p,ul {
+    margin: 0;
+}
 
+ul,ol{
+    margin: 0;
+    padding-left: 0;
+}
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 
 /* ---------------------------------- LOGO ----------------------------------- */
 /* "web" and "studio" style logo (in header and footer) */
 .logo {
     font-family: 'Raleway', sans-serif;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 /* options font LOGO (located in header and footer) */
@@ -85,18 +101,22 @@ body {
 
 /* header navigation options (налаштування шапки) */
 .topbar {
-    display: flex;
-    justify-content: center;
-    outline: 2px solid darkgreen;
+/*     display: inline-flex; */
+/*     justify-content: center; */
+    outline: 4px solid yellow;
 }
 
 /* ---------------------------- header navigation ---------------------------- */
 /* header navigation section options (налаштування секції навігації) */
 .topbar-navigation{
     display: inline-flex;
+    
 }
 
-/* .topbar-navigation-list{} */
+.topbar-navigation-list{
+    gap: 50px;
+    margin-left: 93px;
+}
 
 /* header navigation list options (налаштування списку навігації) */
 /* .topbar-navigation-group {} */
@@ -104,6 +124,8 @@ body {
 /* header navigation link options (налаштування рядків списку навігації) */
 .topbar-navigation-link{
     color: var(--primery-text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .topbar-navigation-link:hover,
 .topbar-navigation-link:focus{
@@ -176,10 +198,8 @@ body {
 /* =========================== HERO section (герой) ===========================*/
 .hero { 
     background-color: var(--background-color-additional);
-/*     box-sizing: border-box;
-    width: auto;
+    width: 1600px;
     height: 600px;
-    top: 80px; */
 }
 
 .hero-title {
@@ -189,7 +209,11 @@ body {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase
+    text-transform: uppercase;
+    /* position */
+    max-width: 670px;
+    margin: 0 auto;
+    padding-top: 200px;
 }
 
 .hero-button {
@@ -206,6 +230,9 @@ body {
     width: 220px;
     border-radius: 4px;
     border-style: none;
+    /* position */
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -253,6 +280,9 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    /* position */
+    box-sizing: border-box;
+    margin-bottom: 50px;
 }
 
 /*  налаштування списку (list options) */
@@ -263,7 +293,8 @@ body {
     justify-content: center;
     align-content: space-between;
     list-style: none;
-    gap: 30px;    
+    gap: 30px;  
+    margin-bottom: 94px;
 }
 
 /* .img-section-picture{} */
@@ -272,6 +303,10 @@ body {
 .our-team {
     background-color: var(--background-color-special);
     height: auto;
+}
+
+.our-team-main-title {
+    margin-top: 94px;
 }
 
 /* .our-team-title {} */
