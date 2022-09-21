@@ -34,12 +34,8 @@ body {
 /* links option (налаштування для посилать) */
 .link-options {
     text-decoration: none;
+    display: inline-block;
 }
-
-/* .flex-list{
-    list-style: none;
-    display: flex;
-} */
 
 
 
@@ -91,6 +87,7 @@ body {
 .topbar {
     display: flex;
     justify-content: center;
+    outline: 2px solid darkgreen;
 }
 
 /* ---------------------------- header navigation ---------------------------- */
