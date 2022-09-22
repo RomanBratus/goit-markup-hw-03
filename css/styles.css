@@ -86,8 +86,9 @@ ul,ol{
 
 /* =========================== HEADER (шапка сайта) ========================== */
 /* header navigation options (налаштування шапки) */
-.topbar {
-    outline: 4px solid yellow;
+.topbar { 
+    width: 1600px;
+    border: 1px solid #ECECEC;
 }
 
 .topbar-flex {
@@ -166,7 +167,8 @@ ul,ol{
 /* footer section options (налаштування підвалу) */
 .basement {
     background-color: var(--background-color-additional);
-    padding-left: 215px;
+    height: 252px;
+    width: 1600px;
 }
 
 /* footer list options (налаштування списку в підвалі) */
@@ -175,7 +177,14 @@ ul,ol{
     list-style: none;
 }
 
-/* .basement-group{} */
+.basement-logo {
+    margin-bottom: 30px;
+}
+
+.basement-group{
+    display: block;
+    margin-bottom: 9px;
+}
 
 /* footer address options (налаштування адреси в підвалі) */
 .basement-address,
@@ -204,7 +213,13 @@ ul,ol{
     color: var(--text-hover-color);
 }
 
+.basement-container {    
+    padding-top: 60px;
+}
 
+.basement-adress-section {
+    margin-top: 20px;
+}
 
 
 /* ++++++++++++++ main index.html (основний контент index.html) ++++++++++++++ */
@@ -213,7 +228,10 @@ ul,ol{
     background-color: var(--background-color-additional);
     width: 1600px;
     height: 600px;
+    gap: 30px;
 }
+
+/* .hero-container{} */
 
 .hero-title {
     color: var(--additional-text-color);
@@ -226,6 +244,7 @@ ul,ol{
     /* position */
     max-width: 670px;
     margin: 0 auto;
+    margin-bottom: 30px;
     padding-top: 200px;
 }
 
@@ -244,8 +263,6 @@ ul,ol{
     border-radius: 4px;
     border-style: none;
     /* position */
-    box-sizing: border-box;
-    margin: 0 auto;
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -255,16 +272,20 @@ ul,ol{
 }
 
 /* -==================== our-features (текст під банером) ==================== */
-/* .our-features {} */
+.our-features {width: 1600px;}
 
 .our-features-list{
     color: var(--primery-text-color);
     list-style: none;
     display: flex;
     justify-content: center;
+    margin-top: 95px;
+    gap: 30px;
 }
 
-/* .our-features-group {} */
+.our-features-group {
+    width: 270px;
+}
 
 /* title options (налаштування назви) */
 .our-features-title {
@@ -273,6 +294,7 @@ ul,ol{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 /* paragraph options (налаштування параграфу) */
@@ -298,6 +320,12 @@ ul,ol{
     margin-bottom: 50px;
 }
 
+/* .img-container,
+.our-team-container{
+    padding-top: 94px;
+}
+ */
+
 /*  налаштування списку (list options) */
 .img-section-list,
 .our-team-list{
@@ -306,8 +334,7 @@ ul,ol{
     justify-content: center;
     align-content: space-between;
     list-style: none;
-    gap: 30px;  
-    margin-bottom: 94px;
+    gap: 30px;
 }
 
 /* .img-section-picture{} */
@@ -315,12 +342,11 @@ ul,ol{
 /* =================== our team (ot) (наша команда) section =================== */
 .our-team {
     background-color: var(--background-color-special);
-    height: auto;
+    height: 650px;
+    width: 1600px;
 }
 
-.our-team-main-title {
-    margin-top: 94px;
-}
+/* .our-team-main-title {} */
 
 /* .our-team-title {} */
 /* .our-team-list{} */
@@ -329,10 +355,13 @@ ul,ol{
     display: flexbox;
     margin: 0 auto;
     background-color: var(--additional-text-color);
-    width: 270px;    
+    width: 270px;
+    height: 370px;    
 }
 
-/* .our-team-img {} */
+.our-team-img {
+    margin-bottom: 30px;
+}
 
 .our-team-title {
     color: var(--primery-text-color);
@@ -349,9 +378,14 @@ ul,ol{
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 10px;
 }
 
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    width: 1600px;
+}
 
 /* ++++++++++++++++++++++++++ PAGE 2 portfolio.html +++++++++++++++++++++++++  */
 /* ---------- main potfolio.html (основний контент portfolio.html) ----------  */

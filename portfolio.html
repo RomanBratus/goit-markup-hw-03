@@ -24,53 +24,51 @@
   <body>
     <!-- Шапка сторінки -->
     <header class="topbar">
-      <nav class="topbar-navigation">
-        <!-- Логотип -->
-        <a href="./index.html" class="logo link-options portfolio-links"
-          ><span class="word-web">Web</span
-          ><span class="studio-header">Studio</span></a
-        >
-        <!-- Навігація по сторінці -->
-        <ul class="topbar-navigation-list">
-          <li class="topbar-navigation-group">
+      <div class="container topbar-flex">
+        <nav class="topbar-navigation">
+          <!-- Логотип -->
+          <a href="./index.html" class="logo link-options"
+            ><span class="word-web">Web</span
+            ><span class="studio-header">Studio</span></a
+          >
+          <!-- Навігація по сторінці -->
+          <ul class="topbar-navigation-list">
+            <li class="topbar-navigation-group">
+              <a href="./index.html" class="link-options topbar-navigation-link"
+                >Студія</a
+              >
+            </li>
+            <li class="topbar-navigation-group">
+              <a
+                href="./portfolio.html"
+                class="link-options topbar-navigation-link"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="topbar-navigation-group">
+              <a href="#" class="link-options topbar-navigation-link"
+                >Контакти</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="topbar-contacts-list">
+          <li class="topbar-contacts-group">
             <a
-              href="./index.html"
-              class="link-options portfolio-links topbar-navigation-link"
-              >Студія</a
+              href="mailto:info@devstudio.com"
+              class="link-options topbar-contacts-link"
+              >info@devstudio.com</a
             >
           </li>
-          <li class="topbar-navigation-group">
+          <li class="topbar-contacts-group">
             <a
-              href="./portfolio.html"
-              class="link-options portfolio-links topbar-navigation-link"
-              >Портфоліо</a
-            >
-          </li>
-          <li class="topbar-navigation-group">
-            <a
-              href="#"
-              class="link-options portfolio-links topbar-navigation-link"
-              >Контакти</a
+              href="tel:+380961111111"
+              class="link-options topbar-contacts-link"
+              >+38 096 111 11 11</a
             >
           </li>
         </ul>
-      </nav>
-      <ul class="topbar-contacts-list">
-        <li class="topbar-contacts-group">
-          <a
-            href="mailto:info@devstudio.com"
-            class="link-options portfolio-links topbar-contacts-link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="topbar-contacts-group">
-          <a
-            href="tel:+380961111111"
-            class="link-options portfolio-links topbar-contacts-link"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <!-- Основний контент сторінки -->
     <main>
@@ -219,35 +217,35 @@
 
     <!-- Підвал сторінки -->
     <footer class="basement">
-      <a href="./index.html" class="logo link-options portfolio-links"
-        ><span class="word-web">Web</span
-        ><span class="studio-footer">Studio</span></a
-      >
-      <address>
-        <ul class="basement-list">
-          <li class="basement-group">
-            <a
-              href="https://goo.gl/maps/L8f5SfHQkq7jRVht7"
-              class="link-options portfolio-links basement-address"
-              >м. Київ, пр-т Лесі Українки, 26
-            </a>
-          </li>
-          <li class="basement-group">
-            <a
-              href="mailto:info@devstudio.com"
-              class="link-options portfolio-links basement-contacts"
-              >info@devstudio.com
-            </a>
-          </li>
-          <li class="basement-group">
-            <a
-              href="tel:+380961111111"
-              class="link-options portfolio-links basement-contacts"
-              >+38 096 111 11 11
-            </a>
-          </li>
-        </ul>
-      </address>
+      <div class="container basement-container">
+        <a href="./index.html" class="logo link-options"
+          ><span class="word-web">Web</span
+          ><span class="studio-footer">Studio</span></a
+        >
+        <address class="basement-adress-section">
+          <ul class="basement-list">
+            <li class="basement-group">
+              <a
+                href="https://goo.gl/maps/L8f5SfHQkq7jRVht7"
+                class="link-options basement-address"
+                >м. Київ, пр-т Лесі Українки, 26
+              </a>
+            </li>
+            <li class="basement-group">
+              <a
+                href="mailto:info@devstudio.com"
+                class="link-options basement-contacts"
+                >info@devstudio.com
+              </a>
+            </li>
+            <li class="basement-group">
+              <a href="tel:+380961111111" class="link-options basement-contacts"
+                >+38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
