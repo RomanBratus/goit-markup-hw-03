@@ -34,7 +34,6 @@ body {
 /* links option (налаштування для посилать) */
 .link-options {
     text-decoration: none;
-    display: inline-block;
 }
 
 h1,h2,h3,h4,h5,p,ul {
@@ -86,6 +85,18 @@ ul,ol{
 
 
 /* =========================== HEADER (шапка сайта) ========================== */
+/* header navigation options (налаштування шапки) */
+.topbar {
+    outline: 4px solid yellow;
+}
+
+.topbar-flex {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    max-height: 80px;
+}
+
 .topbar-navigation-link, 
 .topbar-contacts-link {
     font-weight: 500;
@@ -99,18 +110,11 @@ ul,ol{
     display: flex;
 }
 
-/* header navigation options (налаштування шапки) */
-.topbar {
-/*     display: inline-flex; */
-/*     justify-content: center; */
-    outline: 4px solid yellow;
-}
-
 /* ---------------------------- header navigation ---------------------------- */
 /* header navigation section options (налаштування секції навігації) */
 .topbar-navigation{
     display: inline-flex;
-    
+    justify-content: center;
 }
 
 .topbar-navigation-list{
@@ -119,7 +123,9 @@ ul,ol{
 }
 
 /* header navigation list options (налаштування списку навігації) */
-/* .topbar-navigation-group {} */
+.topbar-navigation-group {
+    margin-top: 32px;
+}
 
 /* header navigation link options (налаштування рядків списку навігації) */
 .topbar-navigation-link{
@@ -133,14 +139,21 @@ ul,ol{
 }
 
 /* ----------------------------- header contacts ----------------------------- */
-/* .topbar-contacts-list{} */
+.topbar-contacts-list{
+    gap: 50px;
+    margin-left: 345px;
+}
 
 /* header contacts list options (налаштування списку контактів) */
-/* .topbar-contacts-group {} */
+.topbar-contacts-group {
+    margin-top: 32px;
+}
 
 /* header contacts color and hover (налаштування контактів в шапці) */
 .topbar-contacts-link {
     color: var(--paragraph-tex-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .topbar-contacts-link:focus,
 .topbar-contacts-link:hover{
