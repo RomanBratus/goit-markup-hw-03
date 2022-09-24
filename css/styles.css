@@ -252,6 +252,11 @@ ul,ol{
     padding-top: 200px;
 }
 
+.hero-div-btn {
+    display: flex;
+    justify-content: center;
+}
+
 .hero-button {
     color: var(--additional-text-color);
     background: var(--text-hover-color);
