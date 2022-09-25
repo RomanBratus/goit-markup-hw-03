@@ -325,11 +325,9 @@ ul,ol{
     margin-bottom: 50px;
 }
 
-/* .img-container,
-.our-team-container{
-    padding-top: 94px;
+.img-section-picture {
+    display: block;
 }
- */
 
 /*  налаштування списку (list options) */
 .img-section-list,
@@ -362,7 +360,11 @@ ul,ol{
 }
 
 .our-team-img {
-    margin-bottom: 30px;
+    display: block;
+}
+
+.our-team-text {
+    padding: 30px 0;
 }
 
 .our-team-title {
@@ -372,15 +374,15 @@ ul,ol{
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
-.our-team-text {
+.our-team-p {
     color: var(--paragraph-tex-color);
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 10px;
 }
 
 .section {
