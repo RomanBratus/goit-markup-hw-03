@@ -84,19 +84,21 @@ ul,ol{
     color: var(--additional-text-color);
 }
 
-
+/* ---------------------------- footer logo option --------------------------- */
+.logo-basement {
+    padding: 0;
+}
 
 /* =========================== HEADER (шапка сайта) ========================== */
 /* header navigation options (налаштування шапки) */
 .topbar { 
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .topbar-flex {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    max-height: 80px;
 }
 
 .topbar-navigation-link, 
@@ -168,7 +170,8 @@ ul,ol{
 /* footer section options (налаштування підвалу) */
 .basement {
     background-color: var(--background-color-additional);
-    height: 252px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /* footer list options (налаштування списку в підвалі) */
@@ -213,9 +216,7 @@ ul,ol{
     color: var(--text-hover-color);
 }
 
-.basement-container {    
-    padding-top: 60px;
-}
+/* .basement-container {} */
 
 .basement-adress-section {
     margin-top: 20px;
@@ -227,7 +228,8 @@ ul,ol{
 .hero { 
     background-color: var(--background-color-additional);
     height: 600px;
-    gap: 30px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 /* .hero-container{} */
@@ -241,10 +243,9 @@ ul,ol{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     /* position */
-    max-width: 670px;
+    max-width: 696px;
     margin: 0 auto;
     margin-bottom: 30px;
-    padding-top: 200px;
 }
 
 .hero-div-btn {
@@ -276,15 +277,12 @@ ul,ol{
 }
 
 /* -==================== our-features (текст під банером) ==================== */
-/* .our-features {} */
+.our-features {margin-top: 94px;}
 
 .our-features-list{
     color: var(--primery-text-color);
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: baseline;
-    margin-top: 95px;
     gap: 30px;
 }
 
@@ -335,9 +333,6 @@ ul,ol{
 .img-section-list,
 .our-team-list{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: space-between;
     list-style: none;
     gap: 30px;
 }
