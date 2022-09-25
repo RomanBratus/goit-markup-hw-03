@@ -189,6 +189,10 @@ ul,ol{
     margin-bottom: 9px;
 }
 
+.basement-group:last-child{
+    margin-bottom: 0;
+}
+
 /* footer address options (налаштування адреси в підвалі) */
 .basement-address,
 .basement-contacts{
