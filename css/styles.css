@@ -89,7 +89,6 @@ ul,ol{
 /* =========================== HEADER (шапка сайта) ========================== */
 /* header navigation options (налаштування шапки) */
 .topbar { 
-    width: 1600px;
     border: 1px solid #ECECEC;
 }
 
@@ -170,7 +169,6 @@ ul,ol{
 .basement {
     background-color: var(--background-color-additional);
     height: 252px;
-    width: 1600px;
 }
 
 /* footer list options (налаштування списку в підвалі) */
@@ -228,7 +226,6 @@ ul,ol{
 /* =========================== HERO section (герой) ===========================*/
 .hero { 
     background-color: var(--background-color-additional);
-    width: 1600px;
     height: 600px;
     gap: 30px;
 }
@@ -279,7 +276,7 @@ ul,ol{
 }
 
 /* -==================== our-features (текст під банером) ==================== */
-.our-features {width: 1600px;}
+/* .our-features {} */
 
 .our-features-list{
     color: var(--primery-text-color);
@@ -351,7 +348,6 @@ ul,ol{
 .our-team {
     background-color: var(--background-color-special);
     height: 650px;
-    width: 1600px;
 }
 
 /* .our-team-main-title {} */
@@ -395,7 +391,6 @@ ul,ol{
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    width: 1600px;
 }
 
 /* ++++++++++++++++++++++++++ PAGE 2 portfolio.html +++++++++++++++++++++++++  */
